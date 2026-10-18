@@ -26,7 +26,7 @@ jobs:
       - name: Extract Android source
         run: |
           mkdir project
-          unzip -q DramAI_Free_Android_Source.zip -d project
+          unzip -q DramAI_Free_Android_Source-2.zip -d project
           find project -maxdepth 3 -type f | head -50
 
       - name: Set up Gradle
